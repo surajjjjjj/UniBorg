@@ -29,7 +29,7 @@ from telethon.tl.types import (
 from uniborg.util import admin_cmd
 
 
-@borg.on(admin_cmd("kangsticker ?(.*)"))
+@borg.on(admin_cmd("kang ?(.*)"))
 async def _(event):
     if event.fwd_from:
         return
@@ -46,7 +46,7 @@ async def _(event):
         return
     me = borg.me
     userid = event.from_id
-    packname = f"{userid}'s @UniBorg Pack"
+    packname = f"@Suraj's Stickers😉"
     packshortname = f"Uni_Borg_{userid}"  # format: Uni_Borg_userid
 
     await event.edit("Processing this sticker. Please Wait!")
