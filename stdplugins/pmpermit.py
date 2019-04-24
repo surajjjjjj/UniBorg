@@ -20,7 +20,7 @@ TG_COMPANION_USER_BOT = "I am @Suraj's Telegram assistant.🙈🤠"
 UNIBORG_USER_BOT_WARN_ZERO = "He is currently busy.😅"
 UNIBORG_USER_BOT_NO_WARN = "**Hey there!😄👋 \n\n**
                   I am @Suraj's **Telegram assistant**🤠
-                  `Suraj is currently busy😅`\n\n
+                  `Suraj is currently busy😅\n\n
                   __I will ask him to reply you as soon as possible!__✅😈🙊"
 
 
