@@ -18,10 +18,10 @@ borg.storage.PREV_REPLY_MESSAGE = {}
 BAALAJI_TG_USER_BOT = "Hello🙏!"
 TG_COMPANION_USER_BOT = "I am @Suraj's Telegram assistant.🙈🤠"
 UNIBORG_USER_BOT_WARN_ZERO = "He is currently busy.😅"
-UNIBORG_USER_BOT_NO_WARN = "**Hey there!😄👋 \n\n**
-                   @Suraj `is currently sleeping`
-                   `😴🛏 💤 `\n\n
-                   __You may continue typing, he will reply you shortly__(hopefully).🙂)"
+UNIBORG_USER_BOT_NO_WARN = ("**Hey there!😁🙏 \n\n**"
+                  "I am @Suraj's **Telegram assistant**🙈🤠"
+                  "Suraj is currently studying🤓📖📚✍️😅"
+                  "__I will ask him to reply you as soon as possible!__✅😈🙊")
 
 
 @borg.on(events.NewMessage(incoming=True, func=lambda e: e.is_private))
